@@ -1,4 +1,4 @@
 spotify-web-api-flow
 ====================
 
-This is a small app to visually explore and program requests to the Spotify Web API.
+This is a small app to visually explore and program requests to the [Spotify Web API](https://developer.spotify.com/web-api/).
