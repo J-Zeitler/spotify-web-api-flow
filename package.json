@@ -1,0 +1,61 @@
+{
+  "name": "spotify-web-api-flow",
+  "version": "0.0.0",
+  "description": "spotify-web-api-flow ====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/J-Zeitler/spotify-web-api-flow.git"
+  },
+  "author": "Jonas Zeitler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Zeitler/spotify-web-api-flow/issues"
+  },
+  "homepage": "https://github.com/J-Zeitler/spotify-web-api-flow",
+  "dependencies": {
+    "client-http": "0.0.7",
+    "jquery": "^2.1.1",
+    "noflo": "^0.5.6",
+    "noflo-ajax": "^0.1.4",
+    "noflo-core": "^0.1.11",
+    "noflo-filesystem": "^1.0.6",
+    "noflo-nodejs": "0.0.5"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.5",
+    "grunt-nodemon": "^0.2.1",
+    "grunt-noflo-manifest": "^0.1.11",
+    "grunt-rerun": "0.0.4"
+  },
+  "noflo": {
+    "components": {
+      "AddClass": "components/AddClass.coffee",
+      "AlbumLoader": "components/AlbumLoader.coffee",
+      "AlbumTracks": "components/AlbumTracks.coffee",
+      "AppendChild": "components/AppendChild.coffee",
+      "ArtistLoader": "components/ArtistLoader.coffee",
+      "ArtistSearch": "components/ArtistSearch.coffee",
+      "CreateElement": "components/CreateElement.coffee",
+      "CreateFragment": "components/CreateFragment.coffee",
+      "GetAttribute": "components/GetAttribute.coffee",
+      "GetElement": "components/GetElement.coffee",
+      "HasClass": "components/HasClass.coffee",
+      "Listen": "components/Listen.coffee",
+      "PlaylistLoader": "components/PlaylistLoader.coffee",
+      "ReadHtml": "components/ReadHtml.coffee",
+      "RemoveClass": "components/RemoveClass.coffee",
+      "RemoveElement": "components/RemoveElement.coffee",
+      "RequestAnimationFrame": "components/RequestAnimationFrame.coffee",
+      "Search": "components/Search.coffee",
+      "SetAttribute": "components/SetAttribute.coffee",
+      "WriteHtml": "components/WriteHtml.coffee"
+    }
+  }
+}
