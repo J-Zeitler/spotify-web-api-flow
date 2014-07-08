@@ -11,4 +11,5 @@ To setup a local runtime and hook into the flowhub client you must have a flowhu
 3. run with watchers `$ grunt`
 
 ##Screenshots
+![Track search flow](./tracksearch-flow?raw=true)
 ![Spotify modules in NoFlo](./screenshot.png?raw=true)
