@@ -11,5 +11,6 @@ To setup a local runtime and hook into the flowhub client you must have a flowhu
 3. run with watchers `$ grunt`
 
 ##Screenshots
+Disclaimer: Some components (e.g. the DOM library) is not available on flowhub. You need to host the NoFlo client locally to build the graphs below.
 ![Track search flow](./tracksearch-flow.png?raw=true)
 ![Spotify modules in NoFlo](./screenshot.png?raw=true)
