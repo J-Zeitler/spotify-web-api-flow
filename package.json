@@ -36,26 +36,14 @@
   },
   "noflo": {
     "components": {
-      "AddClass": "components/AddClass.coffee",
       "AlbumLoader": "components/AlbumLoader.coffee",
       "AlbumTracks": "components/AlbumTracks.coffee",
-      "AppendChild": "components/AppendChild.coffee",
       "ArtistLoader": "components/ArtistLoader.coffee",
       "ArtistSearch": "components/ArtistSearch.coffee",
-      "CreateElement": "components/CreateElement.coffee",
-      "CreateFragment": "components/CreateFragment.coffee",
-      "GetAttribute": "components/GetAttribute.coffee",
-      "GetElement": "components/GetElement.coffee",
-      "HasClass": "components/HasClass.coffee",
-      "Listen": "components/Listen.coffee",
+      "Player": "components/Player.coffee",
       "PlaylistLoader": "components/PlaylistLoader.coffee",
-      "ReadHtml": "components/ReadHtml.coffee",
-      "RemoveClass": "components/RemoveClass.coffee",
-      "RemoveElement": "components/RemoveElement.coffee",
-      "RequestAnimationFrame": "components/RequestAnimationFrame.coffee",
       "Search": "components/Search.coffee",
-      "SetAttribute": "components/SetAttribute.coffee",
-      "WriteHtml": "components/WriteHtml.coffee"
+      "TrackSearch": "components/TrackSearch.coffee"
     }
   }
 }
