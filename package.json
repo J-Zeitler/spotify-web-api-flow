@@ -18,7 +18,7 @@
   "homepage": "https://github.com/J-Zeitler/spotify-web-api-flow",
   "dependencies": {
     "client-http": "0.0.7",
-    "jquery": "^2.1.1",
+    "jquery": "3.0.0",
     "noflo": "^0.5.6",
     "noflo-ajax": "^0.1.4",
     "noflo-core": "^0.1.11",
